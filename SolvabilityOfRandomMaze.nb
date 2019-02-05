@@ -1,0 +1,73 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2019,         65]
+NotebookOptionsPosition[      1518,         48]
+NotebookOutlinePosition[      1853,         63]
+CellTagsIndexPosition[      1810,         60]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Solvability of a Randomly Generated n by m Maze", "Title",
+ CellChangeTimes->{{3.758321684575025*^9, 3.758321692806768*^9}, {
+  3.7583217437956133`*^9, 
+  3.7583217676879272`*^9}},ExpressionUUID->"ffe01849-afa9-4081-9cd3-\
+95eca4e1e5d5"],
+
+Cell["\<\
+Charlie Bushman
+02-04-19\
+\>", "Text",
+ CellChangeTimes->{{3.758321772871972*^9, 
+  3.758321782935731*^9}},ExpressionUUID->"bd8dab3e-0898-4dae-9f8d-\
+884ae9815326"],
+
+Cell["\<\
+This notebook examines the solvability of randomly generated mazes of various \
+dimensions. The solvability in this context is going to be defined as the \
+probability that a randomly generated maze can be solved. We will begin by \
+considering mazes that start in the upper left corner and finish in the \
+bottom right.\
+\>", "Text",
+ CellChangeTimes->{{3.7583217857435703`*^9, 3.7583218772048817`*^9}, 
+   3.7583219134390297`*^9},ExpressionUUID->"0bd92fa1-f8f5-467e-9395-\
+a25febf1b6cd"]
+}, Open  ]]
+},
+WindowSize->{808, 1028},
+WindowMargins->{{Automatic, 236}, {0, Automatic}},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 243, 4, 160, "Title",ExpressionUUID->"ffe01849-afa9-4081-9cd3-95eca4e1e5d5"],
+Cell[826, 28, 174, 6, 58, "Text",ExpressionUUID->"bd8dab3e-0898-4dae-9f8d-884ae9815326"],
+Cell[1003, 36, 499, 9, 104, "Text",ExpressionUUID->"0bd92fa1-f8f5-467e-9395-a25febf1b6cd"]
+}, Open  ]]
+}
+]
+*)
+
