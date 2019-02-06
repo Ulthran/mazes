@@ -14,8 +14,6 @@ import java.io.IOException;
 
 public class MazeGenerator {
   public static void main(String[] args) {
-    System.out.println("HEYEYEYEYEYEYEYE");
-
     int width = Integer.parseInt(args[0]);
     int height = Integer.parseInt(args[1]);
     Random rand = new Random();

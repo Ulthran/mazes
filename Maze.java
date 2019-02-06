@@ -367,7 +367,7 @@ public class Maze {
         BufferedWriter bw = null;
           try {
              //Specify the file name and path here
-    	       File file = new File("mazeResults.txt");
+    	       File file = new File("moreMazeResults.txt");
 
     	       FileWriter fw = new FileWriter(file, true);
     	       bw = new BufferedWriter(fw);
