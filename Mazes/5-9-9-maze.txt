@@ -1,0 +1,12 @@
+5 9
+0 0
+4 8
+||--L
+LL--L
+LLL-L
+L-|LL
+L_-_L
+LL|L_
+|L-_L
+L_-L_
+LLL_L

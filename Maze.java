@@ -356,6 +356,31 @@ public class Maze {
 
         Maze maze = new Maze();
         maze.load(args[0]);
-        maze.print();
+        //maze.print();
+
+        boolean solvable = false;
+        if(!maze.getSolution().isEmpty()) {
+          solvable = true;
+        }
+
+        // Writes maze to file
+        BufferedWriter bw = null;
+          try {
+             //Specify the file name and path here
+    	       File file = new File("mazeResults.txt");
+
+    	       FileWriter fw = new FileWriter(file, true);
+    	       bw = new BufferedWriter(fw);
+             bw.append(maze.w +  " " + maze.h + " " + String.valueOf(solvable)
+                      + "\n");
+          } catch (IOException ioe) {
+    	       ioe.printStackTrace();
+    	    } finally {
+    	       try{
+    	          if(bw!=null) { bw.close(); }
+    	       } catch(Exception ex) {
+    	          System.out.println("Error in closing the BufferedWriter "+ex);
+    	       }
+    	    }
     }
 }

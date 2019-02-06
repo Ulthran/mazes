@@ -14,6 +14,8 @@ import java.io.IOException;
 
 public class MazeGenerator {
   public static void main(String[] args) {
+    System.out.println("HEYEYEYEYEYEYEYE");
+
     int width = Integer.parseInt(args[0]);
     int height = Integer.parseInt(args[1]);
     Random rand = new Random();
@@ -114,13 +116,5 @@ public class MazeGenerator {
 	          System.out.println("Error in closing the BufferedWriter"+ex);
 	       }
 	    }
-/**
-    throws IOException {
-      BufferedWriter writer = new BufferedWriter(new FileWriter(args[2], true));
-      writer.write(lines.get(0));
-      for(int i = 1; i < lines.length; i++) {
-        writer.append(lines.get(i));
-      }
-    }*/
   }
 }
